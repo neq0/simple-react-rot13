@@ -25,7 +25,7 @@ const App = () => {
       <h1>Welcome to Rot13!</h1>
       <p><a href="https://en.wikipedia.org/wiki/ROT13">What is Rot13?</a></p>
       <div className="align-center">
-        <textarea name="" id="rot13-text" cols="30" rows="10"></textarea>
+        <textarea name="" id="rot13-text" cols="75" rows="10"></textarea>
       </div>
       <Button text="Rot13" onClick={() => {
         let rot13area = document.querySelector("#rot13-text");
